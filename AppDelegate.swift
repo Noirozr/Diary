@@ -9,9 +9,15 @@
 import UIKit
 import CoreData
 
+let itemHeight: CGFloat = 150.0
+let itemWidth: CGFloat = 60
+let collectionViewWidth = itemWidth * 3
+
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
-
+    
+    
+    
     var window: UIWindow?
 
 
