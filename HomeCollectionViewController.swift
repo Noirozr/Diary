@@ -63,6 +63,10 @@ class HomeCollectionViewController: UICollectionViewController {
         return cell
     }
     
+    override func collectionView(collectionView: UICollectionView, didSelectItemAtIndexPath indexPath: NSIndexPath) {
+        
+    }
+    
     func collectionView(collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, insetForSectionAtIndex section: Int) -> UIEdgeInsets {
         var leftRightMagrin = (collectionViewWidth - itemWidth)/2
         return UIEdgeInsetsMake(0, leftRightMagrin, 0, leftRightMagrin);
